@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # ========================================================================================================================
 # Author      : Mr.W.Thamba Meshach                              
-# Created By  : Naveen B, Yuvaraj S
+# Created By  : Naveen Balasundar , Yuvaraj S
 # Date Created: 01-07-2019
 # Date last Modified: 08-08-2019
 #
 # ======================================================================================================================== 
-"""The module has been built for updates the JSON file regularly
+"""The module has been built for updating the JSON file regularly
 to keep the file up to date with the latest version of postgresql.It also
 downloads the latest versions of postgresql"""
 # ========================================================================================================================
@@ -22,7 +22,6 @@ import logging
 import requests
 
 global m
-global download_loc
 
 def getTime():
     
